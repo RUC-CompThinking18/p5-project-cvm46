@@ -14,33 +14,32 @@ var jpeg
 var calm
 var crazy
 function preload(){
-  calm = loadSound('elevatorstuck.mp3')
-  crazy = loadSound('LoudEUGH.mp3')
-  //img = loadImage("calmcage.jpg");
-  //jpeg = loadImage("fathercage.jpg");
-  //pic = loadImage("badtimes.jpg");
+  img = loadImage("calmcage.jpg");
+  jpeg = loadImage("fathercage.jpg");
+  pic = loadImage("badtimes.jpg");
 }
 function setup() {
   createCanvas(400, 400, WEBGL);
-
+  calm = createAudio('elevatorstuck.mp3')
+  crazy = createAudio('LoudEUGH.mp3')
 }
 
 function draw() {
   background(0)
-	 if (mouseIsPressed) {
+  if (mouseIsPressed) {
     calm.pause()
 		rotateX(millis() / 10);
 		rotateY(millis() / 10);
 		rotateZ(millis() / 10);
     texture(pic)
     sphere(600);
-    //texture(jpeg)
+    texture(jpeg)
     sphere(50);
 		crazy.play()
     }
-    else {
+  else {
     crazy.pause()
-    //texture(img)
+    texture(img)
     sphere(50);
     calm.play()
   }
