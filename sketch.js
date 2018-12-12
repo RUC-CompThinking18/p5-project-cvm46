@@ -5,7 +5,10 @@ by having the music be this loud cacaphonous noise that is comprised of samples 
 On the outside the ball is on a black background, mostly to provide contrast, but to show how those with mental illnesses
 typically feel alone and isolated. On top of that the stillness of the ball and the calming music show how on the outside
 someone can look calm and fine but on the inside they're currently in a chaotic whirlwind of turmoil.
-*/
+I'm just gonna be honest with you I chose the pictures because they were funny and I at least wanted to make myself feel
+a little good about this project, especially after the python one.
+The pictures are a picture of nic cage at his calmest, that one scene from face off where nic cage is dressed as a priest,
+and a picture of Sans' face, he's from undertale, saying that you're gonna have a bad time.*/
 
 
 var img
